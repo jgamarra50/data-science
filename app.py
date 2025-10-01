@@ -16,7 +16,7 @@ import pandas as pd
 st.image("logo.gif", use_container_width=True)
 
 # Título
-st.title("🧮 Reconocimiento de números escritos a mano - Alfredo Díaz Claro 2025")
+st.title("🧮 Reconocimiento de números escritos a mano - Adriana Ramos Vilchis 2025")
 
 # Lista de modelos disponibles
 modelos_disponibles = ["numerosD1.keras", "numerosC2.keras", "numerosC3.keras"]
@@ -125,5 +125,6 @@ if st.button("Predecir"):
 
     else:
         st.warning("⚠️ Por favor, dibuja un número antes de predecir.")
+
 
 
